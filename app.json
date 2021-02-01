@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/学习资料/学习资料",
+    "pages/直播课堂/直播课堂",
+    "pages/党员教育管理/党员教育管理",
+    "pages/logs/logs"
+  ], 
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#DC143C",
+    "navigationBarTitleText": "安中党建",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [
+    {
+      "pagePath":"pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/首页.png",
+      "selectedIconPath": "icon/首页 (1).png"
+    },
+    {
+      "pagePath":"pages/学习资料/学习资料",
+      "text": "学习资料",
+      "iconPath": "icon/学习.png",
+      "selectedIconPath": "icon/学习 (1).png"
+    },
+    {
+      "pagePath":"pages/直播课堂/直播课堂",
+      "text": "直播课堂",
+      "iconPath": "icon/直播.png",
+      "selectedIconPath": "icon/直播 (1).png"
+    },
+    {
+      "pagePath":"pages/党员教育管理/党员教育管理",
+      "text": "党员教育管理",
+      "iconPath": "icon/党员.png",
+      "selectedIconPath": "icon/党员 (1).png"
+    }
+  ],
+  "selectedColor":"#DC143C"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
